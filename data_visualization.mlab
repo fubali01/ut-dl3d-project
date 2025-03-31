@@ -1,0 +1,1050 @@
+// MDL v1 utf8
+mevislabVersion = 4.1.0.8
+network  {
+  watchlist = ""
+}
+module itkImageFileReader {
+  internal  {
+    frame = "29 373 136 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "598 253 327 414"
+        relativePosition = "0.0212 -0.2060"
+        sizeHint = "327 414"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = itkImageFileReader
+    fileDataType = int16
+    autoDetermineDataType = FALSE
+    correctSubVoxelShift = TRUE
+    fileDimension = 3
+    info = "Loading okay."
+    numDims = 3
+    fileType = Binary
+    componentType = int16
+    pixelType = SCALAR
+    loaderType = NrrdImageIO
+    outputMetaDataStr = "ITK_InputFilterName : NrrdImageIO
+undecodableEntry1 : class itk::Matrix<double,3,3>
+undecodableEntry2 : class std::vector<double,class std::allocator<double> >
+NRRD_kinds[0] : domain
+NRRD_kinds[1] : domain
+NRRD_kinds[2] : domain
+NRRD_space : left-posterior-superior
+"
+    suppressErrorPosting = FALSE
+    unresolvedFileName = $(NETWORK)/ASOCA/Diseased/Annotations/Diseased_1.nrrd
+  }
+}
+module itkImageFileReader {
+  internal  {
+    frame = "313 373 144 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "597 252 327 414"
+        relativePosition = "0.0205 -0.2072"
+        sizeHint = "327 414"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = itkImageFileReader1
+    fileDataType = int16
+    autoDetermineDataType = FALSE
+    correctSubVoxelShift = TRUE
+    fileDimension = 3
+    info = "Loading okay."
+    numDims = 3
+    fileType = Binary
+    componentType = int32
+    pixelType = SCALAR
+    loaderType = NrrdImageIO
+    outputMetaDataStr = "ITK_InputFilterName : NrrdImageIO
+undecodableEntry1 : class itk::Matrix<double,3,3>
+undecodableEntry2 : class std::vector<double,class std::allocator<double> >
+NRRD_kinds[0] : domain
+NRRD_kinds[1] : domain
+NRRD_kinds[2] : domain
+NRRD_space : left-posterior-superior
+"
+    suppressErrorPosting = FALSE
+    unresolvedFileName = $(NETWORK)/ASOCA/Diseased/CTCA/Diseased_1.nrrd
+  }
+}
+module View3D {
+  internal  {
+    frame = "201 29 144 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "314 189 1001 635"
+        relativePosition = "0.0575 -0.2801"
+        sizeHint = "1001 635"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = View3D1
+    autoViewAll = TRUE
+    inventorInputOn = TRUE
+    inventorOutputOn = FALSE
+    lutType = Ramp
+    rendererType = Slicer
+    currentTimePoint = 0
+    staticSamplingRate = 1
+    quality = 1
+    filterVolumeData = FilterLinear
+    lutEditorColorPoints = "[ 0 0 0 0, 4095 1 1 1 ]"
+    lutEditorAlphaPoints = "[ 0 0, 4095 1 ]"
+    lutEditorRelativeLut = FALSE
+    lutEditorColorInterpolation = InterpolateRGB
+    lutEditorAlphaFactor = 1
+    orientationProjectionType = PERSPECTIVE
+    orientationLocation = LOWER_RIGHT
+    orientationOn = TRUE
+    orientationModel = CUBE
+    greyCenter = 0.5
+    greyWidth = 0.5
+    alphaFactor = 1
+    colorFactor = "1 1 1"
+    camType = TRUE
+    camPosition = "345.144073486328 28.9111862182617 100.515396118164"
+    camOrientation = "0.370686113834381 0.402906686067581 0.836814224720001 2.18848204612732"
+    initialCameraOrientation = CAMERA_KEEP_AS_IS
+    camFar = 551.63031
+    camNear = 268.7327
+    camFocal = 410.04047
+    camHeight = 0.78539801
+    decoration = FALSE
+    annotations = TRUE
+    background = TRUE
+    mode = MIP
+    interactiveQuality = Medium
+  }
+  internalFields  {
+    renderer.gradientQuality = GradientQualityAutomatic
+    renderer.enhancementAlphaMix = 0.25
+    renderer.boundaryEnhancement = FALSE
+    renderer.boundaryEnhancementFactor = 1
+    renderer.boundaryEnhancementExponent = 1
+    renderer.boundaryEnhancementGradientBias = 0
+    renderer.silhouetteEnhancement = FALSE
+    renderer.silhouetteEnhancementExponent = 1
+    renderer.silhouetteEnhancementFactor = 1
+    renderer.toneShading = FALSE
+    renderer.toneShadingWarmColor = "0.67451000213623 0.533333003520966 0.141176000237465"
+    renderer.toneShadingColdColor = "0 0 0.400000005960464"
+    renderer.toneShadingWarmDiffuse = 0.60000002
+    renderer.toneShadingColdDiffuse = 0.2
+    renderer.toneShadingAngle = 45
+    renderer.materialAmbient = 0.60000002
+    renderer.materialDiffuse = 1
+    renderer.materialSpecular = 1
+    renderer.materialSpecularity = 32
+    renderer.light1Enabled = TRUE
+    renderer.light1DiffuseIntensity = 1
+    renderer.light1SpecularIntensity = 1
+    renderer.light1Color = "1 1 1"
+    renderer.light1PolarPhi = 45
+    renderer.light1PolarRho = 0
+    renderer.light2Enabled = FALSE
+    renderer.light2DiffuseIntensity = 1
+    renderer.light2SpecularIntensity = 1
+    renderer.light2Color = "1 1 1"
+    renderer.light2PolarPhi = 0
+    renderer.light2PolarRho = 0
+    renderer.light3Enabled = FALSE
+    renderer.light3DiffuseIntensity = 1
+    renderer.light3SpecularIntensity = 1
+    renderer.light3Color = "1 1 1"
+    renderer.light3PolarPhi = -45
+    renderer.light3PolarRho = 0
+    renderer.sizeOutputX = 512
+    renderer.sizeOutputY = 512
+    renderer.sizeOutputZ = 224
+    renderer.subVolumeStartX = 0
+    renderer.subVolumeStartY = 0
+    renderer.subVolumeStartZ = 0
+    renderer.subVolumeEndX = 512
+    renderer.subVolumeEndY = 512
+    renderer.subVolumeEndZ = 224
+    clip.hideGeometry = FALSE
+    clip.on = FALSE
+    clip.left = FALSE
+    clip.right = FALSE
+    clip.top = FALSE
+    clip.bottom = FALSE
+    clip.rear = FALSE
+    clip.front = FALSE
+    clip.translation0 = "1 0 0"
+    clip.translation1 = "-1 0 0"
+    clip.translation2 = "0 1 0"
+    clip.translation3 = "0 -1 0"
+    clip.translation4 = "0 0 1"
+    clip.translation5 = "0 0 -1"
+    clip.rotation0 = "0 0 0.999999940395355 1.57079994678497"
+    clip.rotation1 = "0 0 -0.999999940395355 1.57079994678497"
+    clip.rotation2 = "0 0 -1 3.1415901184082"
+    clip.rotation3 = "0 0 1 0"
+    clip.rotation4 = "-0.999999940395355 0 0 1.57079994678497"
+    clip.rotation5 = "0.999999940395355 0 0 1.57079994678497"
+  }
+}
+module ApplyLUT {
+  internal  {
+    frame = "85 237 88 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "656 430 222 64"
+        relativePosition = "0.0246 -0.0012"
+        sizeHint = "222 64"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = ApplyLUT
+    maxEntry = 255
+    replicateSingleChannelLUT = FALSE
+  }
+}
+module SoGVRVolumeRenderer {
+  internal  {
+    frame = "29 133 200 56"
+    moduleGroupName = ""
+    showNetworkPanel = true
+    windows  {
+      window _default {
+        geometry = "573 171 389 581"
+        relativePosition = "0.0253 -0.3009"
+        sizeHint = "389 581"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = SoGVRVolumeRenderer
+    renderCaching = AUTO
+    boundingBoxCaching = AUTO
+    renderCulling = AUTO
+    pickCulling = AUTO
+    on = TRUE
+    autoLoad = TRUE
+    interactiveQuality = 0.1
+    staticQuality = 1
+    interactiveSamplingRate = 1
+    staticSamplingRate = 1
+    blendMode = Blend
+    octreeNodeSize = NODE_SIZE_32
+    octreeParentComputationMethod = Rank
+    octreeParentComputationRank = 4
+    currentTimePoint = 0
+    maxTimePoint = 0
+    currentUserIndex = 0
+    maxUserIndex = 0
+    force8bit = FALSE
+    filterVolumeData = FilterLinear
+    filterLut = TRUE
+    subVolumeStartX = 0
+    subVolumeStartY = 0
+    subVolumeStartZ = 0
+    subVolumeEndX = 512
+    subVolumeEndY = 512
+    subVolumeEndZ = 224
+    zbuffer = TRUE
+    permitClipping = TRUE
+    drawOnPlanes = TRUE
+    sizeOutputX = 512
+    sizeOutputY = 512
+    sizeOutputZ = 224
+    incrementalUpdate = TRUE
+    highQualityStaticUpdate = FALSE
+    staticRenderingAfterInteractionOnly = FALSE
+    adaptQualityToWindowSize = TRUE
+    rayCastTextureStorage = RayCastTextureStorage_Auto
+    renderMode = Direct
+    greyCenter = 0.5
+    greyWidth = 0.5
+    greyInvert = FALSE
+    alphaCenter = 0.5
+    alphaWidth = 0.5
+    alphaInvert = FALSE
+    colorFactor = "1 1 1"
+    alphaFactor = 1
+    enhancementAlphaMix = 0.25
+    boundaryEnhancement = FALSE
+    boundaryEnhancementFactor = 1
+    boundaryEnhancementExponent = 1
+    boundaryEnhancementGradientBias = 0
+    silhouetteEnhancement = FALSE
+    silhouetteEnhancementExponent = 1
+    silhouetteEnhancementFactor = 1
+    toneShading = FALSE
+    toneShadingWarmColor = "0.674509823322296 0.533333361148834 0.141176477074623"
+    toneShadingColdColor = "0 0 0.400000005960464"
+    toneShadingWarmDiffuse = 0.60000002
+    toneShadingColdDiffuse = 0.2
+    toneShadingAngle = 45
+    materialAmbient = 0.60000002
+    materialDiffuse = 1
+    materialSpecular = 1
+    materialSpecularity = 32
+    reduceLightingOnLowGradientMagnitude = FALSE
+    light1Enabled = TRUE
+    light1DiffuseIntensity = 1
+    light1SpecularIntensity = 1
+    light1Color = "1 1 1"
+    light1PolarPhi = 0
+    light1PolarRho = 0
+    light2Enabled = FALSE
+    light2DiffuseIntensity = 1
+    light2SpecularIntensity = 1
+    light2Color = "1 1 1"
+    light2PolarPhi = 45
+    light2PolarRho = 45
+    light3Enabled = FALSE
+    light3DiffuseIntensity = 1
+    light3SpecularIntensity = 1
+    light3Color = "1 1 1"
+    light3PolarPhi = -45
+    light3PolarRho = 0
+    gradientQuality = GradientQualityAutomatic
+    selectionAlphaThreshold = 0.2
+    selectionActive = FALSE
+    useWorldCoords = TRUE
+  }
+}
+module Lut500Colors {
+  internal  {
+    frame = "181 373 104 56"
+    moduleGroupName = ""
+  }
+  fields  {
+    instanceName = Lut500Colors
+    lutTable = "0 0 0 0 0
+1 100 0.00 0.00 100
+2 88.00 100 0.00 100
+3 0.00 100 23.00 100
+4 0.00 65.00 100 100
+5 47.00 0.00 100 100
+6 100 0.00 42.00 100
+7 71 49.70 0.00 100
+8 12.78 71 0.00 100
+9 0.00 71 66.03 100
+10 3.55 0.00 71 100
+11 71 0.00 58.93 100
+12 50 14.00 0.00 100
+13 30.00 50 0.00 100
+14 0.00 50 26.00 100
+15 0.00 18.50 50 100
+16 37.50 0.00 50 100
+17 50 0.00 6.50 100
+18 100 99.00 34.00 100
+19 34.00 100 41.00 100
+20 34.00 85.00 100 100
+21 56.00 34.00 100 100
+22 100 34.00 70.00 100
+23 71 51.12 24.14 100
+24 39.05 71 24.14 100
+25 24.14 71 61.77 100
+26 24.14 27.69 71 100
+27 71 24.14 69.58 100
+28 50 22.00 17.00 100
+29 41.00 50 17.00 100
+30 17.00 50 29.50 100
+31 17.00 33.50 50 100
+32 37.50 17.00 50 100
+33 50 17.00 26.00 100
+34 100 94.00 57.00 100
+35 58.00 100 57.00 100
+36 57.00 97.00 100 100
+37 66.00 57.00 100 100
+38 100 57.00 86.00 100
+39 71 53.25 40.47 100
+40 53.96 71 40.47 100
+41 40.47 71 61.06 100
+42 40.47 46.86 71 100
+43 68.16 40.47 71 100
+44 50 29.00 28.50 100
+45 47.00 50 28.50 100
+46 28.50 50 34.00 100
+47 28.50 42.00 50 100
+48 39.00 28.50 50 100
+49 50 28.50 37.00 100
+50 100 72.00 0.00 100
+51 17.00 100 0.00 100
+52 0.00 100 95.00 100
+53 7.00 0.00 100 100
+54 100 0.00 82.00 100
+55 71 21.30 0.00 100
+56 41.18 71 0.00 100
+57 0.00 71 37.63 100
+58 0.00 24.85 71 100
+59 54.67 0.00 71 100
+60 71 0.00 8.52 100
+61 50.00 50 0.00 100
+62 0.00 50 6.00 100
+63 0.00 38.50 50 100
+64 17.50 0.00 50 100
+65 50 0.00 26.50 100
+66 100 72.00 34.00 100
+67 54.00 100 34.00 100
+68 34.00 100 88.00 100
+69 34.00 39.00 100 100
+70 100 34.00 97.00 100
+71 71 31.95 24.14 100
+72 58.22 71 24.14 100
+73 24.14 71 42.60 100
+74 24.14 46.86 71 100
+75 53.96 24.14 71 100
+76 71 24.14 36.21 100
+77 50 45.50 17.00 100
+78 17.50 50 17.00 100
+79 17.00 46.50 50 100
+80 24.50 17.00 50 100
+81 50 17.00 39.00 100
+82 100 76.00 57.00 100
+83 75.00 100 57.00 100
+84 57.00 100 86.00 100
+85 57.00 66.00 100 100
+86 97.00 57.00 100 100
+87 71 41.18 40.47 100
+88 66.74 71 40.47 100
+89 40.47 71 48.99 100
+90 40.47 59.64 71 100
+91 55.38 40.47 71 100
+92 71 40.47 51.83 100
+93 50 44.00 28.50 100
+94 31.50 50 28.50 100
+95 28.50 50 49.50 100
+96 30.00 28.50 50 100
+97 50 28.50 45.50 100
+98 100 32.00 0.00 100
+99 57.00 100 0.00 100
+100 0.00 100 55.00 100
+101 0.00 33.00 100 100
+102 78.00 0.00 100 100
+103 100 0.00 10.00 100
+104 69.58 71 0.00 100
+105 0.00 71 9.23 100
+106 0.00 53.25 71 100
+107 26.27 0.00 71 100
+108 71 0.00 36.92 100
+109 50 30.00 0.00 100
+110 14.00 50 0.00 100
+111 0.00 50 41.50 100
+112 0.00 2.50 50 100
+113 50 0.00 46.50 100
+114 100 46.00 34.00 100
+115 80.00 100 34.00 100
+116 34.00 100 62.00 100
+117 34.00 65.00 100 100
+118 77.00 34.00 100 100
+119 100 34.00 49.00 100
+120 71 65.32 24.14 100
+121 24.14 71 24.14 100
+122 24.14 65.32 71 100
+123 34.79 24.14 71 100
+124 71 24.14 54.67 100
+125 50 32.50 17.00 100
+126 31.00 50 17.00 100
+127 17.00 50 40.00 100
+128 17.00 23.00 50 100
+129 47.50 17.00 50 100
+130 100 59.00 57.00 100
+131 93.00 100 57.00 100
+132 57.00 100 69.00 100
+133 57.00 83.00 100 100
+134 79.00 57.00 100 100
+135 100 57.00 73.00 100
+136 71 63.19 40.47 100
+137 44.73 71 40.47 100
+138 40.47 71 70.29 100
+139 43.31 40.47 71 100
+140 71 40.47 64.61 100
+141 50 35.50 28.50 100
+142 40.50 50 28.50 100
+143 28.50 50 41.00 100
+144 28.50 35.50 50 100
+145 45.50 28.50 50 100
+146 50 28.50 30.00 100
+147 97.00 100 0.00 100
+148 0.00 100 15.00 100
+149 0.00 73.00 100 100
+150 38.00 0.00 100 100
+151 100 0.00 50.00 100
+152 71 44.02 0.00 100
+153 19.17 71 0.00 100
+154 0.00 71 60.35 100
+155 0.00 2.13 71 100
+156 71 0.00 65.32 100
+157 50 10.00 0.00 100
+158 34.00 50 0.00 100
+159 0.00 50 21.50 100
+160 0.00 22.50 50 100
+161 33.50 0.00 50 100
+162 50 0.00 11.00 100
+163 100 93.00 34.00 100
+164 34.00 100 35.00 100
+165 34.00 91.00 100 100
+166 51.00 34.00 100 100
+167 100 34.00 76.00 100
+168 71 46.86 24.14 100
+169 42.60 71 24.14 100
+170 24.14 71 58.22 100
+171 24.14 31.95 71 100
+172 68.87 24.14 71 100
+173 50 19.50 17.00 100
+174 44.00 50 17.00 100
+175 17.00 50 27.00 100
+176 17.00 36.00 50 100
+177 34.50 17.00 50 100
+178 50 17.00 28.50 100
+179 100 90.00 57.00 100
+180 62.00 100 57.00 100
+181 57.00 100.00 100 100
+182 62.00 57.00 100 100
+183 100 57.00 90.00 100
+184 71 51.12 40.47 100
+185 56.80 71 40.47 100
+186 40.47 71 58.22 100
+187 40.47 49.70 71 100
+188 65.32 40.47 71 100
+189 71 40.47 42.60 100
+190 49.00 50 28.50 100
+191 28.50 50 32.00 100
+192 28.50 44.00 50 100
+193 37.00 28.50 50 100
+194 50 28.50 39.00 100
+195 100 63.00 0.00 100
+196 25.00 100 0.00 100
+197 0.00 100 87.00 100
+198 0.00 2.00 100 100
+199 100 0.00 90.00 100
+200 71 15.62 0.00 100
+201 47.57 71 0.00 100
+202 0.00 71 31.95 100
+203 0.00 30.53 71 100
+204 48.28 0.00 71 100
+205 71 0.00 14.20 100
+206 50 46.00 0.00 100
+207 0.00 50 1.50 100
+208 0.00 42.50 50 100
+209 13.50 0.00 50 100
+210 50 0.00 31.00 100
+211 100 67.00 34.00 100
+212 59.00 100 34.00 100
+213 34.00 100 82.00 100
+214 34.00 44.00 100 100
+215 98.00 34.00 100 100
+216 71 27.69 24.14 100
+217 61.77 71 24.14 100
+218 24.14 71 39.05 100
+219 24.14 51.12 71 100
+220 49.70 24.14 71 100
+221 71 24.14 39.76 100
+222 50 42.50 17.00 100
+223 20.50 50 17.00 100
+224 17.00 49.50 50 100
+225 21.50 17.00 50 100
+226 50 17.00 41.50 100
+227 100 73.00 57.00 100
+228 79.00 100 57.00 100
+229 57.00 100 83.00 100
+230 57.00 69.00 100 100
+231 93.00 57.00 100 100
+232 100 57.00 59.00 100
+233 68.87 71 40.47 100
+234 40.47 71 46.15 100
+235 40.47 61.77 71 100
+236 53.25 40.47 71 100
+237 71 40.47 54.67 100
+238 50 42.50 28.50 100
+239 33.50 50 28.50 100
+240 28.50 50 47.50 100
+241 28.50 28.50 50 100
+242 50 28.50 47.50 100
+243 100 23.00 0.00 100
+244 65.00 100 0.00 100
+245 0.00 100 47.00 100
+246 0.00 42.00 100 100
+247 70.00 0.00 100 100
+248 100 0.00 18.00 100
+249 71 66.03 0.00 100
+250 0.00 71 3.55 100
+251 0.00 58.93 71 100
+252 19.88 0.00 71 100
+253 71 0.00 42.60 100
+254 50 26.00 0.00 100
+255 18.50 50 0.00 100
+256 0.00 50 37.50 100
+257 0.00 6.50 50 100
+258 49.00 0.00 50 100
+259 100 41.00 34.00 100
+260 85.00 100 34.00 100
+261 34.00 100 56.00 100
+262 34.00 70.00 100 100
+263 72.00 34.00 100 100
+264 100 34.00 55.00 100
+265 71 61.77 24.14 100
+266 27.69 71 24.14 100
+267 24.14 69.58 71 100
+268 31.24 24.14 71 100
+269 71 24.14 58.22 100
+270 50 29.50 17.00 100
+271 33.50 50 17.00 100
+272 17.00 50 37.50 100
+273 17.00 26.00 50 100
+274 45.00 17.00 50 100
+275 50 17.00 18.00 100
+276 97.00 100 57.00 100
+277 57.00 100 66.00 100
+278 57.00 86.00 100 100
+279 75.00 57.00 100 100
+280 100 57.00 76.00 100
+281 71 61.06 40.47 100
+282 46.86 71 40.47 100
+283 40.47 71 68.16 100
+284 41.18 40.47 71 100
+285 71 40.47 66.74 100
+286 50 34.00 28.50 100
+287 42.00 50 28.50 100
+288 28.50 50 39.00 100
+289 28.50 37.00 50 100
+290 44.00 28.50 50 100
+291 50 28.50 32.00 100
+292 100 95.00 0.00 100
+293 0.00 100 7.00 100
+294 0.00 82.00 100 100
+295 30.00 0.00 100 100
+296 100 0.00 58.00 100
+297 71 37.63 0.00 100
+298 24.85 71 0.00 100
+299 0.00 71 54.67 100
+300 0.00 8.52 71 100
+301 71 0.00 71.00 100
+302 50 6.00 0.00 100
+303 38.50 50 0.00 100
+304 0.00 50 17.50 100
+305 0.00 26.50 50 100
+306 29.00 0.00 50 100
+307 50 0.00 15.00 100
+308 100 88.00 34.00 100
+309 39.00 100 34.00 100
+310 34.00 97.00 100 100
+311 45.00 34.00 100 100
+312 100 34.00 82.00 100
+313 71 42.60 24.14 100
+314 46.86 71 24.14 100
+315 24.14 71 53.96 100
+316 24.14 36.21 71 100
+317 64.61 24.14 71 100
+318 71 24.14 24.85 100
+319 46.50 50 17.00 100
+320 17.00 50 24.50 100
+321 17.00 39.00 50 100
+322 32.00 17.00 50 100
+323 50 17.00 31.00 100
+324 100 86.00 57.00 100
+325 66.00 100 57.00 100
+326 57.00 100 97.00 100
+327 58.00 57.00 100 100
+328 100 57.00 94.00 100
+329 71 48.99 40.47 100
+330 59.64 71 40.47 100
+331 40.47 71 55.38 100
+332 40.47 51.83 71 100
+333 62.48 40.47 71 100
+334 71 40.47 44.73 100
+335 50 49.50 28.50 100
+336 28.50 50 30.00 100
+337 28.50 45.50 50 100
+338 35.50 28.50 50 100
+339 50 28.50 41.00 100
+340 100 55.00 0.00 100
+341 33.00 100 0.00 100
+342 0.00 100 78.00 100
+343 0.00 10.00 100 100
+344 100 0.00 98.00 100
+345 71 9.23 0.00 100
+346 53.25 71 0.00 100
+347 0.00 71 26.27 100
+348 0.00 36.92 71 100
+349 42.60 0.00 71 100
+350 71 0.00 19.88 100
+351 50 41.50 0.00 100
+352 2.50 50 0.00 100
+353 0.00 46.50 50 100
+354 9.00 0.00 50 100
+355 50 0.00 35.00 100
+356 100 62.00 34.00 100
+357 65.00 100 34.00 100
+358 34.00 100 77.00 100
+359 34.00 49.00 100 100
+360 92.00 34.00 100 100
+361 71 24.14 24.14 100
+362 65.32 71 24.14 100
+363 24.14 71 34.79 100
+364 24.14 54.67 71 100
+365 46.15 24.14 71 100
+366 71 24.14 44.02 100
+367 50 40.00 17.00 100
+368 23.00 50 17.00 100
+369 17.00 50 47.50 100
+370 18.50 17.00 50 100
+371 50 17.00 44.50 100
+372 100 69.00 57.00 100
+373 83.00 100 57.00 100
+374 57.00 100 79.00 100
+375 57.00 73.00 100 100
+376 89.00 57.00 100 100
+377 100 57.00 63.00 100
+378 71 70.29 40.47 100
+379 40.47 71 43.31 100
+380 40.47 64.61 71 100
+381 50.41 40.47 71 100
+382 71 40.47 57.51 100
+383 50 41.00 28.50 100
+384 35.50 50 28.50 100
+385 28.50 50 45.50 100
+386 28.50 30.00 50 100
+387 50 28.50 49.50 100
+388 100 15.00 0.00 100
+389 73.00 100 0.00 100
+390 0.00 100 38.00 100
+391 0.00 50.00 100 100
+392 62.00 0.00 100 100
+393 100 0.00 27.00 100
+394 71 60.35 0.00 100
+395 2.13 71 0.00 100
+396 0.00 65.32 71 100
+397 14.20 0.00 71 100
+398 71 0.00 48.28 100
+399 50 21.50 0.00 100
+400 22.50 50 0.00 100
+401 0.00 50 33.50 100
+402 0.00 11.00 50 100
+403 45.00 0.00 50 100
+404 100 35.00 34.00 100
+405 91.00 100 34.00 100
+406 34.00 100 51.00 100
+407 34.00 76.00 100 100
+408 66.00 34.00 100 100
+409 100 34.00 60.00 100
+410 71 58.22 24.14 100
+411 31.95 71 24.14 100
+412 24.14 71 68.87 100
+413 27.69 24.14 71 100
+414 71 24.14 62.48 100
+415 50 27.00 17.00 100
+416 36.00 50 17.00 100
+417 17.00 50 34.50 100
+418 17.00 28.50 50 100
+419 42.50 17.00 50 100
+420 50 17.00 21.00 100
+421 100.00 100 57.00 100
+422 57.00 100 62.00 100
+423 57.00 90.00 100 100
+424 72.00 57.00 100 100
+425 100 57.00 80.00 100
+426 71 58.22 40.47 100
+427 49.70 71 40.47 100
+428 40.47 71 65.32 100
+429 40.47 42.60 71 100
+430 71 40.47 69.58 100
+431 50 32.00 28.50 100
+432 44.00 50 28.50 100
+433 28.50 50 37.00 100
+434 28.50 39.00 50 100
+435 42.00 28.50 50 100
+436 50 28.50 34.00 100
+437 100 87.00 0.00 100
+438 2.00 100 0.00 100
+439 0.00 90.00 100 100
+440 22.00 0.00 100 100
+441 100 0.00 67.00 100
+442 71 31.95 0.00 100
+443 30.53 71 0.00 100
+444 0.00 71 48.28 100
+445 0.00 14.20 71 100
+446 65.32 0.00 71 100
+447 50 1.50 0.00 100
+448 42.50 50 0.00 100
+449 0.00 50 13.50 100
+450 0.00 31.00 50 100
+451 25.00 0.00 50 100
+452 50 0.00 19.00 100
+453 100 82.00 34.00 100
+454 44.00 100 34.00 100
+455 34.00 100 98.00 100
+456 39.00 34.00 100 100
+457 100 34.00 87.00 100
+458 71 39.05 24.14 100
+459 51.12 71 24.14 100
+460 24.14 71 49.70 100
+461 24.14 39.76 71 100
+462 60.35 24.14 71 100
+463 71 24.14 29.11 100
+464 49.50 50 17.00 100
+465 17.00 50 21.50 100
+466 17.00 41.50 50 100
+467 29.00 17.00 50 100
+468 50 17.00 34.00 100
+469 100 83.00 57.00 100
+470 69.00 100 57.00 100
+471 57.00 100 93.00 100
+472 57.00 59.00 100 100
+473 100 57.00 97.00 100
+474 71 46.15 40.47 100
+475 61.77 71 40.47 100
+476 40.47 71 53.25 100
+477 40.47 54.67 71 100
+478 60.35 40.47 71 100
+479 71 40.47 47.57 100
+480 50 47.50 28.50 100
+481 28.50 50 28.50 100
+482 28.50 47.50 50 100
+483 33.50 28.50 50 100
+484 50 28.50 42.50 100
+485 100 47.00 0.00 100
+486 42.00 100 0.00 100
+487 0.00 100 70.00 100
+488 0.00 18.00 100 100
+489 93.00 0.00 100 100
+490 71 3.55 0.00 100
+491 58.93 71 0.00 100
+492 0.00 71 19.88 100
+493 0.00 42.60 71 100
+494 36.92 0.00 71 100
+495 71 0.00 26.27 100
+496 50 37.50 0.00 100
+497 6.50 50 0.00 100
+498 0.00 50 49.00 100
+499 5.00 0.00 50 100
+500 50 0.00 39.00 100
+"
+  }
+}
+module View3D {
+  internal  {
+    frame = "417 37 144 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "-26 201 1001 635"
+        relativePosition = "-0.1751 -0.2662"
+        sizeHint = "1001 635"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = View3D2
+    autoViewAll = TRUE
+    inventorInputOn = TRUE
+    inventorOutputOn = FALSE
+    lutType = Ramp
+    rendererType = Slicer
+    currentTimePoint = 0
+    staticSamplingRate = 1
+    quality = 1
+    filterVolumeData = FilterLinear
+    lutEditorColorPoints = "[ 0 0 0 0, 4095 1 1 1 ]"
+    lutEditorAlphaPoints = "[ 0 0, 4095 1 ]"
+    lutEditorRelativeLut = FALSE
+    lutEditorColorInterpolation = InterpolateRGB
+    lutEditorAlphaFactor = 1
+    orientationProjectionType = PERSPECTIVE
+    orientationLocation = LOWER_RIGHT
+    orientationOn = TRUE
+    orientationModel = CUBE
+    greyCenter = 0.5
+    greyWidth = 0.5
+    alphaFactor = 1
+    colorFactor = "1 1 1"
+    camType = TRUE
+    camPosition = "377.503875732422 -214.804443359375 308.296539306641"
+    camOrientation = "-0.45738297700882 -0.641478836536407 -0.615877866744995 4.90903902053833"
+    initialCameraOrientation = CAMERA_KEEP_AS_IS
+    camFar = 530.67828
+    camNear = 270.04001
+    camFocal = 400.22931
+    camHeight = 0.78539801
+    decoration = FALSE
+    annotations = TRUE
+    background = TRUE
+    mode = VolumeRendering
+    interactiveQuality = Medium
+  }
+  internalFields  {
+    renderer.gradientQuality = GradientQualityAutomatic
+    renderer.enhancementAlphaMix = 0.25
+    renderer.boundaryEnhancement = FALSE
+    renderer.boundaryEnhancementFactor = 1
+    renderer.boundaryEnhancementExponent = 1
+    renderer.boundaryEnhancementGradientBias = 0
+    renderer.silhouetteEnhancement = FALSE
+    renderer.silhouetteEnhancementExponent = 1
+    renderer.silhouetteEnhancementFactor = 1
+    renderer.toneShading = FALSE
+    renderer.toneShadingWarmColor = "0.67451000213623 0.533333003520966 0.141176000237465"
+    renderer.toneShadingColdColor = "0 0 0.400000005960464"
+    renderer.toneShadingWarmDiffuse = 0.60000002
+    renderer.toneShadingColdDiffuse = 0.2
+    renderer.toneShadingAngle = 45
+    renderer.materialAmbient = 0.60000002
+    renderer.materialDiffuse = 1
+    renderer.materialSpecular = 1
+    renderer.materialSpecularity = 32
+    renderer.light1Enabled = TRUE
+    renderer.light1DiffuseIntensity = 1
+    renderer.light1SpecularIntensity = 1
+    renderer.light1Color = "1 1 1"
+    renderer.light1PolarPhi = 45
+    renderer.light1PolarRho = 0
+    renderer.light2Enabled = FALSE
+    renderer.light2DiffuseIntensity = 1
+    renderer.light2SpecularIntensity = 1
+    renderer.light2Color = "1 1 1"
+    renderer.light2PolarPhi = 0
+    renderer.light2PolarRho = 0
+    renderer.light3Enabled = FALSE
+    renderer.light3DiffuseIntensity = 1
+    renderer.light3SpecularIntensity = 1
+    renderer.light3Color = "1 1 1"
+    renderer.light3PolarPhi = -45
+    renderer.light3PolarRho = 0
+    renderer.sizeOutputX = 512
+    renderer.sizeOutputY = 512
+    renderer.sizeOutputZ = 275
+    renderer.subVolumeStartX = 0
+    renderer.subVolumeStartY = 0
+    renderer.subVolumeStartZ = 0
+    renderer.subVolumeEndX = 512
+    renderer.subVolumeEndY = 512
+    renderer.subVolumeEndZ = 275
+    clip.hideGeometry = FALSE
+    clip.on = FALSE
+    clip.left = FALSE
+    clip.right = FALSE
+    clip.top = FALSE
+    clip.bottom = FALSE
+    clip.rear = FALSE
+    clip.front = FALSE
+    clip.translation0 = "1 0 0"
+    clip.translation1 = "-1 0 0"
+    clip.translation2 = "0 1 0"
+    clip.translation3 = "0 -1 0"
+    clip.translation4 = "0 0 1"
+    clip.translation5 = "0 0 -1"
+    clip.rotation0 = "0 0 0.999999940395355 1.57079994678497"
+    clip.rotation1 = "0 0 -0.999999940395355 1.57079994678497"
+    clip.rotation2 = "0 0 -1 3.1415901184082"
+    clip.rotation3 = "0 0 1 0"
+    clip.rotation4 = "-0.999999940395355 0 0 1.57079994678497"
+    clip.rotation5 = "0.999999940395355 0 0 1.57079994678497"
+  }
+}
+module itkImageFileReader {
+  internal  {
+    frame = "489 365 144 56"
+    moduleGroupName = ""
+    windows  {
+      window _default {
+        geometry = "597 253 327 414"
+        relativePosition = "0.0205 -0.2060"
+        sizeHint = "327 414"
+        wasOpen = no
+      }
+    }
+  }
+  fields  {
+    instanceName = itkImageFileReader2
+    fileDataType = int16
+    autoDetermineDataType = FALSE
+    correctSubVoxelShift = TRUE
+    fileDimension = 3
+    info = "Loading okay."
+    numDims = 3
+    fileType = TypeNotApplicable
+    componentType = int16
+    pixelType = SCALAR
+    loaderType = NiftiImageIO
+    outputMetaDataStr = "ITK_FileNotes : 
+undecodableEntry1 : class itk::Matrix<double,3,3>
+undecodableEntry2 : class std::vector<double,class std::allocator<double> >
+aux_file : 
+bitpix : 16
+cal_max : 0
+cal_min : 0
+datatype : 4
+descrip : 
+dim[0] : 3
+dim[1] : 512
+dim[2] : 512
+dim[3] : 275
+dim[4] : 1
+dim[5] : 1
+dim[6] : 1
+dim[7] : 1
+dim_info : 0
+intent_code : 0
+intent_name : 
+intent_p1 : 0
+intent_p2 : 0
+intent_p3 : 0
+nifti_type : 1
+pixdim[0] : 0
+pixdim[1] : 0.376953
+pixdim[2] : 0.376953
+pixdim[3] : 0.5
+pixdim[4] : 1
+pixdim[5] : 1
+pixdim[6] : 1
+pixdim[7] : 1
+qfac : 0
+qform_code : 0
+qform_code_name : NIFTI_XFORM_UNKNOWN
+qoffset_x : 0
+qoffset_y : 0
+qoffset_z : 0
+undecodableEntry38 : class itk::Matrix<float,4,4>
+quatern_b : 0
+quatern_c : 0
+quatern_d : 0
+scl_inter : 0
+scl_slope : 1
+sform_code : 2
+sform_code_name : NIFTI_XFORM_ALIGNED_ANAT
+slice_code : 0
+slice_duration : 0
+slice_end : 0
+slice_start : 0
+srow_x : -0.376953 0 0 61.3115
+srow_y : -0 0.376953 0 66.1885
+srow_z : 0 -0 0.5 39.45
+toffset : 0
+vox_offset : 352
+xyzt_units : 2
+"
+    suppressErrorPosting = FALSE
+    unresolvedFileName = $(NETWORK)/ASOCA_secret/forDLMIA/1.img.nii/diao_0.nii
+  }
+}
+connections  {
+  View3D1.inImage = itkImageFileReader1.output0
+  View3D1.inInvPreLUT = SoGVRVolumeRenderer.self
+  ApplyLUT.input0 = itkImageFileReader.output0
+  ApplyLUT.inLUT = Lut500Colors.outLUT
+  SoGVRVolumeRenderer.image = ApplyLUT.output0
+  View3D2.inImage = itkImageFileReader2.output0
+}
+networkModel = ""
